@@ -1,29 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=Trochut:ital@1&family=Vujahday+Script&display=swap');
 
-
 * { margin:0;
     padding:0;
-    box-sizing: 0;
- }
+    box-sizing: 0; }
 
 
 body { background-color: rgb(209, 250, 207);
-    overflow: hidden;
-}
+    overflow: hidden;}
     
 .container {
     width: 45%;
-    margin: 32px auto;
-   
-
- }
+    margin: 32px auto; }
 
 
-.header {
-    height: 250px;
-    text-align: center;
- }
+.header {    height: 250px;
+    text-align: center; }
 
  .header h1 { 
     color: rgb(86, 145, 104);
@@ -32,21 +24,16 @@ body { background-color: rgb(209, 250, 207);
     animation: header;
     animation-duration: 3s;
     position: relative; /*top-right-bottom-left*/
-    animation-fill-mode: forwards;
- }
+    animation-fill-mode: forwards; }
 
 @keyframes header {
     0% { top: -250px;}
-    100% {top: 100px; }
-}
+    100% {top: 100px; }}
 
-.main { 
-    font-family: 'Vujahday Script', cursive;
+.main {     font-family: 'Vujahday Script', cursive;
     color: rgb(12, 48, 80);
     line-height: 1.5;
-    font-size: 2rem;
-
-}
+    font-size: 2rem;}
 
 .text-left { 
     animation: text-left;
@@ -58,28 +45,22 @@ body { background-color: rgb(209, 250, 207);
 @keyframes text-left {
     0% { left: -1000px;}
     85% { left: 50px;}
-    100% { left:0}
-    
-}
+    100% { left:0}  }
+
 .text-right { 
     margin-top: 32px;
     text-align: right;
     animation: text-right;
     position: relative;
     animation-duration: 4s;
-    animation-timing-function: ease-out;
-}
+    animation-timing-function: ease-out;}
 
 @keyframes text-right {
     0% { right: -1000px;}
     85% { right: 50px;}
-    100% { right:0;}
-}
+    100% { right:0;}}
 
-.footer { 
-    text-align: center;
-
-}
+.footer {     text-align: center;}
 
 .btn { 
     opacity: 0;
@@ -95,12 +76,10 @@ body { background-color: rgb(209, 250, 207);
     animation: aniBtn;
     animation-duration: 5s;
     animation-delay: 2s;
-    animation-fill-mode: forwards;
-    
+    animation-fill-mode: forwards;  
 }
 
 @keyframes aniBtn {
    0%  {opacity: 0; } /*0-1*/
-   100% { opacity: 100;}
-    
+   100% { opacity: 100;}   
 }
